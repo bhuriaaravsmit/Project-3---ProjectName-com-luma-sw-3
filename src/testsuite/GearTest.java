@@ -66,7 +66,7 @@ public class GearTest extends Utility {
 
         //Change Qty to ‘5’
 
-        sendTextToElement(By.xpath("//input[@id='qty']"),"5");
+        sendTextToElement(By.xpath("//input[@class='input-text qty']"),"5");
         //Click on ‘Update Shopping Cart’ button
 
         clickOnElement(By.xpath("//span[text()='Update Shopping Cart']"));
